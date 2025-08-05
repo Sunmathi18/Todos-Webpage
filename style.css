@@ -1,0 +1,53 @@
+* {
+    text-align: center;
+    background-color:royalblue;
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#input {
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid black;
+    padding: 15px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.btn, .edit {
+    background-color:darkblue;
+    padding: 10px;
+    color: white;
+    border: 3px solid black;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.check {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    accent-color:darkblue;
+}
+
+#listcontainer {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:deepskyblue;
+    color: black;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: bold;
+}
